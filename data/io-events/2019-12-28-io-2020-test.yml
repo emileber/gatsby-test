@@ -1,13 +1,14 @@
 title: IO 2020 test
 date: 2020-01-13T23:00:26.372Z
+event_url: event link here
 location: mikes_chicoutimi_racine
 talks:
   - authors:
-      - author: emileber
-      - author: vincentpoirier
+      - undefined: emileber
+      - undefined: vincentpoirier
     description: React is dead
     title: JS Framework
   - authors:
-      - author: jipiboily
+      - undefined: ferd
     description: Cool description!
     title: Another thing
