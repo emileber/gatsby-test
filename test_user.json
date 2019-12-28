@@ -1,0 +1,1 @@
+{"type":"PR","pr":{"number":1,"head":"0fa6f8e08792219f5c5af2b95db0efc6761a9259"},"user":"Emile Bergeron","status":"draft","branch":"cms/test_user","collection":"authors","title":"No Title","description":"No Description!","objects":{"entry":{"path":"data/authors/test_user.yml","sha":"edaea44d370028c19b59935496e1b502900e69cf"},"files":[]},"timeStamp":"2019-12-28T07:26:12.850Z"}
