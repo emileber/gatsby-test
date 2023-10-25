@@ -24,11 +24,13 @@ It is built with the [JAMStack](https://jamstack.org/), which means it's static 
 
 ## How to add an event?
 
-Log into our [Netlify **Admin CMS** app](https://saglac.io/admin) using your pre-authorized Github account to automagically update the relational YAML data files used in the static rendering of the website.
+See yaml files in [`./data/`](./data/).
 
 Make sure the **Authors** and **Locations** have the necessary models before creating a new event.
 
 ## Development
+
+We use NodeJS **version 18**. You can use [NVM](https://github.com/nvm-sh/nvm) or [Volta](https://volta.sh/) or any other NodeJS version manager to install it.
 
 Install the project:
 
@@ -43,11 +45,11 @@ npm start
 
 To ease the development, there are some tools already installed.
 
-### GraphiQL
+### GraphQL
 
 An in-browser IDE for exploring GraphQL data available in our Gatsby setup.
 
-While the development server is started (with the previous command), the IDE should be avaible at:
+While the development server is started (with the previous command), the IDE should be available at:
 
 [http://localhost:8000/\_\_\_graphql](http://localhost:8000/___graphql)
 
@@ -68,19 +70,6 @@ Then, it should automatically navigate to `http://localhost:6006/`.
 
 Otherwise, it's always available on the public website under [`https://saglac.io/storybook`](https://saglac.io/storybook/?path=/info/).
 
-### Admin CMS
-
-> [**Netlify CMS**](https://www.netlifycms.org/)  
-> Open source content management for your Git workflow
-
-_Note that while it works in development, it will commit changes to the remote `master` branch._
-
-The configuration file reside in the `static` directory and it is fetched by the frontend app to bootstrap itself.
-
-    static/admin/config.yml
-
-It manages the YAML under the `data/` directory.
-
 ### Webpack Bundle Analyzer
 
 The plugin is configured. Just run
@@ -91,6 +80,9 @@ npm run analyze
 
 Then it should automatically open the browser page.
 
-# Author
+## Authors
 
-Emile Bergeron ([@emileber](https://github.com/emileber))
+*   Emile Bergeron ([@emileber](https://github.com/emileber))
+*   Gabriel Le Breton ([@gableroux](https://gableroux.com/))
+*   Raphaël Côté ([@qwertyuu](https://github.com/qwertyuu))
+*   You? :)
